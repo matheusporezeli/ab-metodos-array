@@ -1,17 +1,22 @@
-# Nome do meu projeto
+# Alura Books - filtro de livros
 
-Rápida descrição do objetivo de fazer esse projeto
+Página de livros da Alura Books com filtros por categoria ou preços
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :sparkles: Nome        | **Alura Books - filtro de livros**
+| :label: Tecnologias | Javascript
+| :rocket: URL         | https://ab-metodos-array.vercel.app
+| :fire: Desafio     | https://cursos.alura.com.br/course/javascript-metodos-array
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![projeto concluido](https://github.com/matheusporezeli/ab-metodos-array/assets/112051389/eab2a31d-4838-4049-a545-6840a24d63b1#vitrinedev)
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Esse foi um projeto para aprender alguns métodos de manipulação de arrays.<br>
+Primeiro comecei fazendo uma requisição para pegar todos os livros da API de exemplo em JSON.<br>
+Com o método forEach criei um padrão de HTML para ser inserido com os valores dessa api para cada livro.<br>
+Aprendi que o método map executa uma função para cada elemento do array e devolve um novo array como resultado; com isso apliquei um desconto nos livros do projeto.<br>
+Utilizei o método filter para verificar qual botão foi clicado na página e assim saber quais livros exibir na tela.<br>
+Aplicando o método sort comparei os preços dos livros e organizei eles de forma crescente, aplicando uma opacidade nos livros indisponíveis.<br>
+Por fim utilizei o método reduce para descobrir o valor total de todos livros disponíveis e manipulei o DOM para exibir a sessão "valor total dos livros disponíveis" apenas quando o botão de filtrar livros disponíveis fosse clicado.
